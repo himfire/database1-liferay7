@@ -1,0 +1,10 @@
+Bundle-Name: database1-api
+Bundle-SymbolicName: site.hadef.database1.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	site.hadef.database1.exception,\
+	site.hadef.database1.model,\
+	site.hadef.database1.service,\
+	site.hadef.database1.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../database1-service/service.xml
